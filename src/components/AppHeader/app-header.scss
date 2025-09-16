@@ -1,0 +1,70 @@
+.header {
+  height: 100vh;
+  background-image: url(../../../public/images/Mainbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__nav {
+    padding-top: 52px;
+    margin-bottom: 111px;
+  }
+  &__list {
+    margin-left: 150px;
+    display: flex;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    &:first-child {
+      position: relative;
+    }
+    &:first-child::before {
+      content: url(../../../public/icons/coffee.svg);
+      top: -16px;
+      left: 0;
+      position: absolute;
+    }
+    &-item {
+      margin-left: 40px;
+      cursor: pointer;
+    }
+  }
+  &__content {
+    text-align: center;
+    color: #fff;
+    &-title {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 40px;
+    }
+    &-text {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    &-btn {
+      padding: 5px 42px 10px;
+      text-decoration: none;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+}
+.decoration {
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  margin-bottom: 36px;
+  & img {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  &-element {
+    display: block;
+    width: 60px;
+    margin-top: 25px;
+    height: 1px;
+    background-color: #fff;
+  }
+}
+
