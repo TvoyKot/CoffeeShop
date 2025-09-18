@@ -1,0 +1,30 @@
+.navigation {
+  position: absolute;
+  padding-top: 52px;
+  margin-bottom: 111px;
+  z-index: 10;
+  &__list {
+    margin-left: 150px;
+    display: flex;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    &:first-child {
+      position: relative;
+    }
+    &:first-child::before {
+      content: url(../../public/icons/coffee.svg);
+      top: -16px;
+      left: 0;
+      position: absolute;
+    }
+    &-item {
+      margin-left: 40px;
+      cursor: pointer;
+      & a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

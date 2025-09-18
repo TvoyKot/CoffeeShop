@@ -1,0 +1,10 @@
+.our-coffee {
+  padding-top: 64px;
+  margin-bottom: 36px;
+  &__list {
+    display: flex;
+    gap: 71px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

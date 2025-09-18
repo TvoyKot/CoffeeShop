@@ -6,13 +6,6 @@ class AppHeader extends Component {
   render() {
     return (
       <header className="header">
-        <nav className="header__nav">
-          <ul className="header__list">
-            <li className="header__list-item">Coffe house</li>
-            <li className="header__list-item">Our coffee</li>
-            <li className="header__list-item">For your pleasure</li>
-          </ul>
-        </nav>
         <div className="container">
           <div className="header__content">
             <h1 className="header__content-title">Everything You Love About Coffee</h1>

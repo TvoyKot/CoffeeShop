@@ -1,15 +1,22 @@
-import AppHeader from "./components/AppHeader/app-header";
-import AppAbout from "./components/AppAbout/app-about";
-import AppBest from "./components/AppBest/app-best";
-import AppFooter from "./components/AppFooter/app-footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import OurPage from "./pages/OurPage";
+import MainPage from "./pages/MainPage";
+import Pleasure from "./pages/Pleasure";
+import Navigation from "./components/Navigation";
+
 function App() {
   return (
-    <div className="App">
-      <AppHeader />
-      <AppAbout />
-      <AppBest />
-      <AppFooter />
-    </div>
+    <>
+      <BrowserRouter>
+      <Navigation />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/ourPage" element={<OurPage />} />
+          <Route path="/Pleasure" element={<Pleasure />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

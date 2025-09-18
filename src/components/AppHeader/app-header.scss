@@ -4,30 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  &__nav {
-    padding-top: 52px;
-    margin-bottom: 111px;
-  }
-  &__list {
-    margin-left: 150px;
-    display: flex;
-    font-size: 10px;
-    font-weight: normal;
-    color: #fff;
-    &:first-child {
-      position: relative;
-    }
-    &:first-child::before {
-      content: url(../../../public/icons/coffee.svg);
-      top: -16px;
-      left: 0;
-      position: absolute;
-    }
-    &-item {
-      margin-left: 40px;
-      cursor: pointer;
-    }
-  }
+  padding-top: 180px;
   &__content {
     text-align: center;
     color: #fff;
@@ -67,4 +44,3 @@
     background-color: #fff;
   }
 }
-
