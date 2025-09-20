@@ -1,4 +1,6 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
+
 import "./app-footer.scss";
 
 class AppFooter extends Component {
@@ -7,9 +9,15 @@ class AppFooter extends Component {
       <footer className="footer">
         <div className="footer__content">
           <ul className="footer__list">
-            <li className="footer__list-item">Coffee house</li>
-            <li className="footer__list-item">Our coffee</li>
-            <li className="footer__list-item">For your pleasure</li>
+            <li className="footer__list-item">
+              <Link to="/"> Coffee house</Link>
+            </li>
+            <li className="footer__list-item">
+              <Link to="/ourPage">Our coffee</Link>
+            </li>
+            <li className="footer__list-item">
+              <Link to="/Pleasure">For your pleasure</Link>
+            </li>
           </ul>
           <div className="decoration">
             <span className="decoration-element"></span>

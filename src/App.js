@@ -4,17 +4,19 @@ import OurPage from "./pages/OurPage";
 import MainPage from "./pages/MainPage";
 import Pleasure from "./pages/Pleasure";
 import Navigation from "./components/Navigation";
+import AppFooter from "./components/AppFooter/app-footer";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Navigation />
+        <Navigation />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/ourPage" element={<OurPage />} />
           <Route path="/Pleasure" element={<Pleasure />} />
         </Routes>
+        <AppFooter />
       </BrowserRouter>
     </>
   );
