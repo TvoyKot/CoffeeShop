@@ -21,7 +21,7 @@ class AppFooter extends Component {
           </ul>
           <div className="decoration">
             <span className="decoration-element"></span>
-            <img src="icons/coffee-beans.svg" alt="Coffee-icon" />
+            <img src="/icons/coffee-beans.svg" alt="Coffee-icon" />
             <span className="decoration-element"></span>
           </div>
         </div>
