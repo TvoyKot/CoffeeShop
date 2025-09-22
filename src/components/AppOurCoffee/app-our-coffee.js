@@ -10,17 +10,18 @@ class AppOurCoffee extends Component {
 
   renderList() {
     const { ourProducts } = this.props;
- 
+
     return ourProducts.map((item) => {
       return (
-        <AppOurCard
-          key={item.id}
-          imgUrl={item.imgUrl}
-          name={item.name}
-          weight={item.weight}
-          country={item.country}
-          price={item.price}
-        />
+          <AppOurCard
+            key={item.id}
+            imgUrl={item.imgUrl}
+            name={item.name}
+            weight={item.weight}
+            country={item.country}
+            price={item.price}
+            id={item.id}
+          />
       );
     });
   }

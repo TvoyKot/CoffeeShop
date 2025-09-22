@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/ourPage" element={<OurPage />} />
-          <Route path="/ourPage/:id" element={<OurPageProduct />} />
+          <Route path="/ourPageProduct/:id" element={<OurPageProduct />} />
           <Route path="/Pleasure" element={<Pleasure />} />
         </Routes>
         <AppFooter />
