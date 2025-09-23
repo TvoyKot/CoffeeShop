@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/git@github.com:TvoyKot/CoffeeShop.git/static/css/main.1d3481b6.css",
+    "main.js": "/git@github.com:TvoyKot/CoffeeShop.git/static/js/main.74165420.js",
+    "static/media/Bestbg.png": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/Bestbg.cff78d5d2f0463cce976.png",
+    "static/media/Pleasurebg.png": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/Pleasurebg.c46a7213561ceaf2be11.png",
+    "static/media/OurCoffeeBg.png": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/OurCoffeeBg.65cc45421bde2c8841cb.png",
+    "static/media/Mainbg.jpg": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/Mainbg.1fc8cd5120bee417989b.jpg",
+    "static/media/coffee.svg": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/coffee.49921d2f5ab45fb37a36.svg",
+    "static/media/coffee-beans-white.svg": "/git@github.com:TvoyKot/CoffeeShop.git/static/media/coffee-beans-white.750dd53cdcf920a2a59b.svg",
+    "index.html": "/git@github.com:TvoyKot/CoffeeShop.git/index.html",
+    "main.1d3481b6.css.map": "/git@github.com:TvoyKot/CoffeeShop.git/static/css/main.1d3481b6.css.map",
+    "main.74165420.js.map": "/git@github.com:TvoyKot/CoffeeShop.git/static/js/main.74165420.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3481b6.css",
+    "static/js/main.74165420.js"
+  ]
+}
