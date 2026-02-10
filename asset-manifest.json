@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/CoffeeShop/static/css/main.69cb5ff6.css",
-    "main.js": "/CoffeeShop/static/js/main.ec89198c.js",
+    "main.css": "/CoffeeShop/static/css/main.0551d206.css",
+    "main.js": "/CoffeeShop/static/js/main.b5d1a546.js",
     "static/media/Bestbg.png": "/CoffeeShop/static/media/Bestbg.cff78d5d2f0463cce976.png",
     "static/media/Pleasurebg.png": "/CoffeeShop/static/media/Pleasurebg.c46a7213561ceaf2be11.png",
     "static/media/OurCoffeeBg.png": "/CoffeeShop/static/media/OurCoffeeBg.65cc45421bde2c8841cb.png",
     "static/media/Mainbg.jpg": "/CoffeeShop/static/media/Mainbg.1fc8cd5120bee417989b.jpg",
+    "static/media/AboutGoodsContent.png": "/CoffeeShop/static/media/AboutGoodsContent.4f1587ee59a6404a48f9.png",
     "static/media/aromistico.png": "/CoffeeShop/static/media/aromistico.4e261d657bd1c5a38fd9.png",
     "static/media/solimo.png": "/CoffeeShop/static/media/solimo.70dfa848d31bd4438eeb.png",
     "static/media/presto.png": "/CoffeeShop/static/media/presto.5d5b4b0634dba8e8c89d.png",
@@ -13,11 +14,11 @@
     "static/media/coffee-beans-white.svg": "/CoffeeShop/static/media/coffee-beans-white.750dd53cdcf920a2a59b.svg",
     "static/media/coffee-beans.svg": "/CoffeeShop/static/media/coffee-beans.9464cc7b6dfffb579cf60dd6105fc52f.svg",
     "index.html": "/CoffeeShop/index.html",
-    "main.69cb5ff6.css.map": "/CoffeeShop/static/css/main.69cb5ff6.css.map",
-    "main.ec89198c.js.map": "/CoffeeShop/static/js/main.ec89198c.js.map"
+    "main.0551d206.css.map": "/CoffeeShop/static/css/main.0551d206.css.map",
+    "main.b5d1a546.js.map": "/CoffeeShop/static/js/main.b5d1a546.js.map"
   },
   "entrypoints": [
-    "static/css/main.69cb5ff6.css",
-    "static/js/main.ec89198c.js"
+    "static/css/main.0551d206.css",
+    "static/js/main.b5d1a546.js"
   ]
 }
