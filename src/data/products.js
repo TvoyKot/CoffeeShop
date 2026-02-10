@@ -1,57 +1,58 @@
+    const imageUrl = "CoffeeShop/images/aromisticoList.png"
+
 export const products = [
   {
     id: 1,
-    imgUrl: "/images/aromisticoList.png",
-    imgUrl2: "/images/ProductCardImg.jpg",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Black",
     weight: "1kg",
     country: "Brazil",
     price: "6.99",
-    description: "loremfsefes sd gsd sg s gs gsdsgg"
+    description: "Good coffee beans for your pleasure"
   },
   {
     id: 2,
-    imgUrl: "/images/aromisticoList.png",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Yellow",
     weight: "1kg",
     country: "Kenya",
     price: "6.99",
-    description: "fdf fgdf fdgdfg   dfgfd df gddgd df"
+    description: "Good coffee beans for your pleasure"
   },
   {
     id: 3,
-    imgUrl: "/images/aromisticoList.png",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Black",
     weight: "1kg",
     country: "Columbia",
     price: "6.99",
-    description: "fdf fgdf fdgdfg   dfgfd df gddgd df"
+    description: "Good coffee beans for your pleasure"
   },
   {
     id: 4,
-    imgUrl: "/images/aromisticoList.png",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Red",
     weight: "1kg",
     country: "Brazil",
     price: "6.99",
-    description: "fdf fgdf fdgdfg   dfgfd df gddgd df"
+    description: "Good coffee beans for your pleasure"
   },
   {
     id: 5,
-    imgUrl: "/images/aromisticoList.png",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Yellow",
     weight: "1kg",
     country: "Brazil",
     price: "6.99",
-    description: "fdf fgdf fdgdfg   dfgfd df gddgd df"
+    description: "Good coffee beans for your pleasure"
   },
   {
     id: 6,
-    imgUrl: "/images/aromisticoList.png",
+    imgUrl: imageUrl,
     name: "AROMISTICO Coffee Red",
     weight: "1kg",
     country: "Brazil",
     price: "6.99",
-    description: "fdf fgdf fdgdfg   dfgfd df gddgd df"
+    description: "Good coffee beans for your pleasure"
   },
 ]

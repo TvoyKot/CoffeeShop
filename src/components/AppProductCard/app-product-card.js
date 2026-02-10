@@ -1,5 +1,6 @@
 import { products } from "../../data/products";
 import { Component } from "react";
+import coffeeIconSVG from '../../icons/coffee-beans.svg'
 import "./app-product-card.scss";
 
 class AppProductCard extends Component {
@@ -11,14 +12,14 @@ class AppProductCard extends Component {
     return (
       <div className="product-card">
         <div className="product-card__inner">
-          <div className="product-card__img">
-            <img src={product.imgUrl2} alt="product-image" />
+          <div className="product-card__img-wrapper">
+            <img className="product-card__img" src={product.imgUrl} alt="product-image" />
           </div>
           <div className="product-card__content">
             <h1 className="product-card__title title">{product.name}</h1>
             <div className="decoration">
               <span className="decoration-element"></span>
-              <img src="/icons/coffee-beans.svg" alt="Coffee-icon" />
+              <img src={coffeeIconSVG} alt="Coffee-icon" />
               <span className="decoration-element"></span>
             </div>
             <ul className="product-card__list">

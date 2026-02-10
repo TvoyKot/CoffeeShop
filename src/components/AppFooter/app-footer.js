@@ -1,5 +1,7 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
+import coffeeIconSVG from "../../icons/coffee-beans.svg"
+
 
 import "./app-footer.scss";
 
@@ -21,7 +23,7 @@ class AppFooter extends Component {
           </ul>
           <div className="decoration">
             <span className="decoration-element"></span>
-            <img src="/icons/coffee-beans.svg" alt="Coffee-icon" />
+            <img src={coffeeIconSVG} alt="Coffee-icon" />
             <span className="decoration-element"></span>
           </div>
         </div>

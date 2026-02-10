@@ -1,4 +1,6 @@
 import { Component } from "react";
+import aboutGoodImage from "../../images/AboutGoodsContent.png";
+import coffeeIconSVG from "../../icons/coffee-beans.svg";
 
 import "./app-about-goods.scss";
 
@@ -8,12 +10,12 @@ class AppAboutGoods extends Component {
       <>
         <section className="about__goods">
           <div className="about__inner">
-            <img src="images/AboutGoodsContent.png" alt="about-goods-content" />
+            <img src={aboutGoodImage} alt="about-goods-content" />
             <div className="about__content">
               <h2 className="about__goods-title title">About Our goods</h2>
               <div className="decoration">
                 <span className="decoration-element"></span>
-                <img src="icons/coffee-beans.svg" alt="Coffee-icon" />
+                <img src={coffeeIconSVG} alt="Coffee-icon" />
                 <span className="decoration-element"></span>
               </div>
               <p className="about__goods-text first-part">

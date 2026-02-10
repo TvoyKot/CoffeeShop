@@ -9,11 +9,12 @@ import AppOurCoffee from "../components/AppOurCoffee/app-our-coffee";
 class OurPage extends Component {
   constructor(props) {
     super(props);
+    const imageUrl = "CoffeeShop/images/aromisticoList.png"
     this.state = {
       ourProducts: [
         {
           id: 1,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Black",
           weight: "1kg",
           country: "Brazil",
@@ -21,7 +22,7 @@ class OurPage extends Component {
         },
         {
           id: 2,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Yellow",
           weight: "1kg",
           country: "Kenya",
@@ -29,7 +30,7 @@ class OurPage extends Component {
         },
         {
           id: 3,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Black",
           weight: "1kg",
           country: "Columbia",
@@ -37,7 +38,7 @@ class OurPage extends Component {
         },
         {
           id: 4,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Red",
           weight: "1kg",
           country: "Brazil",
@@ -45,7 +46,7 @@ class OurPage extends Component {
         },
         {
           id: 5,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Yellow",
           weight: "1kg",
           country: "Brazil",
@@ -53,7 +54,7 @@ class OurPage extends Component {
         },
         {
           id: 6,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Red",
           weight: "1kg",
           country: "Brazil",

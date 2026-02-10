@@ -1,6 +1,9 @@
 import { Component } from "react";
 import Card from "../AppBest/app-best-card";
 import "./app-best.scss";
+import coffeImageSolimo from "../../images/coffee-items/solimo.png"
+import coffeImagePresto from "../../images/coffee-items/presto.png"
+import coffeImageAromisto from "../../images/coffee-items/aromistico.png"
 
 class AppBest extends Component {
   constructor(props) {
@@ -9,21 +12,21 @@ class AppBest extends Component {
       bestProducts: [
         {
           id: 1,
-          imgUrl: "/images/coffee-items/solimo.png",
+          imgUrl: coffeImageSolimo,
           name: "Solimo Coffee Beans",
           weight: "2kg",
           price: "10.73",
         },
         {
           id: 2,
-          imgUrl: "/images/coffee-items/presto.png",
+          imgUrl: coffeImagePresto,
           name: "Presto Coffee Beans",
           weight: "1kg",
           price: "15.99",
         },
         {
           id: 3,
-          imgUrl: "/images/coffee-items/aromistico.png",
+          imgUrl: coffeImageAromisto,
           name: "Aromisto Coffee",
           weight: "1kg",
           price: "6.99",

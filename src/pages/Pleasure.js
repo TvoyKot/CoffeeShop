@@ -4,12 +4,14 @@ import AppAboutGoods from "../components/AppAboutGoods/app-about-goods";
 import AppOurCoffee from "../components/AppOurCoffee/app-our-coffee";
 class Pleasure extends Component {
   constructor(props) {
+    const imageUrl = "CoffeeShop/images/aromisticoList.png";
+
     super(props);
     this.state = {
       ourProducts: [
         {
           id: 1,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Black",
           weight: "1kg",
           country: "Brazil",
@@ -17,7 +19,7 @@ class Pleasure extends Component {
         },
         {
           id: 2,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Yellow",
           weight: "1kg",
           country: "Kenya",
@@ -25,7 +27,7 @@ class Pleasure extends Component {
         },
         {
           id: 3,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Black",
           weight: "1kg",
           country: "Columbia",
@@ -33,7 +35,7 @@ class Pleasure extends Component {
         },
         {
           id: 4,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Red",
           weight: "1kg",
           country: "Brazil",
@@ -41,7 +43,7 @@ class Pleasure extends Component {
         },
         {
           id: 5,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Yellow",
           weight: "1kg",
           country: "Brazil",
@@ -49,7 +51,7 @@ class Pleasure extends Component {
         },
         {
           id: 6,
-          imgUrl: "/images/aromisticoList.png",
+          imgUrl: imageUrl,
           name: "AROMISTICO Coffee Red",
           weight: "1kg",
           country: "Brazil",

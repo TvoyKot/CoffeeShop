@@ -1,4 +1,5 @@
 import { Component } from "react";
+import coffeeIconSVG from "../../icons/coffee-beans.svg"
 
 import "./app-header.scss";
 
@@ -11,7 +12,7 @@ class AppHeader extends Component {
             <h1 className="header__content-title">Everything You Love About Coffee</h1>
             <div className="decoration">
               <span className="decoration-element"></span>
-              <img src="icons/coffee.svg" alt="Coffee-icon" />
+              <img src={coffeeIconSVG} alt="Coffee-icon" />
               <span className="decoration-element"></span>
             </div>
             <p className="header__content-text">We makes every day full of energy and taste</p>

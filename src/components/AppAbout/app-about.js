@@ -1,4 +1,5 @@
 import { Component } from "react";
+import coffeeIconSVG from "../../icons/coffee-beans.svg"
 import "./app-about.scss";
 
 class AppAbout extends Component {
@@ -8,7 +9,10 @@ class AppAbout extends Component {
         <h2 className="about__title title">About Us</h2>
         <div className="decoration">
           <span className="decoration-element"></span>
-          <img src="icons/coffee-beans.svg" alt="Coffee-icon" />
+          <img
+            src={coffeeIconSVG}
+            alt="Coffee-icon"
+          />
           <span className="decoration-element"></span>
         </div>
         <p className="about__text first-part">
